@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BE1A47C1D1824D100182676 /* TeamMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1A47B1D1824D100182676 /* TeamMember.m */; };
+		2BE1A47F1D18250400182676 /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1A47E1D18250400182676 /* TeamViewController.m */; };
+		2BE1A4821D18253200182676 /* TeamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1A4811D18253200182676 /* TeamDetailViewController.m */; };
 		44239E021950D50F008E9E68 /* NavigationControllersSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 44239E011950D50F008E9E68 /* NavigationControllersSpec.m */; };
 		44F38FE918B3F4650012314D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F38FE818B3F4650012314D /* Foundation.framework */; };
 		44F38FEB18B3F4650012314D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F38FEA18B3F4650012314D /* CoreGraphics.framework */; };
@@ -36,6 +39,12 @@
 /* Begin PBXFileReference section */
 		10B9B3F904CE21FB0A5F4C8F /* Pods-NavigationControllersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationControllersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationControllersTests/Pods-NavigationControllersTests.release.xcconfig"; sourceTree = "<group>"; };
 		1B110E9DA3FF433A96E2A505 /* libPods-NavigationControllersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NavigationControllersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE1A47A1D1824D100182676 /* TeamMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamMember.h; sourceTree = "<group>"; };
+		2BE1A47B1D1824D100182676 /* TeamMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamMember.m; sourceTree = "<group>"; };
+		2BE1A47D1D18250400182676 /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
+		2BE1A47E1D18250400182676 /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+		2BE1A4801D18253200182676 /* TeamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamDetailViewController.h; sourceTree = "<group>"; };
+		2BE1A4811D18253200182676 /* TeamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamDetailViewController.m; sourceTree = "<group>"; };
 		44239E011950D50F008E9E68 /* NavigationControllersSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllersSpec.m; sourceTree = "<group>"; };
 		44F38FE518B3F4650012314D /* NavigationControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F38FE818B3F4650012314D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -121,6 +130,12 @@
 				44F38FFA18B3F4650012314D /* Main.storyboard */,
 				44F3900018B3F4650012314D /* Images.xcassets */,
 				44F38FEF18B3F4650012314D /* Supporting Files */,
+				2BE1A47A1D1824D100182676 /* TeamMember.h */,
+				2BE1A47B1D1824D100182676 /* TeamMember.m */,
+				2BE1A4801D18253200182676 /* TeamDetailViewController.h */,
+				2BE1A4811D18253200182676 /* TeamDetailViewController.m */,
+				2BE1A47D1D18250400182676 /* TeamViewController.h */,
+				2BE1A47E1D18250400182676 /* TeamViewController.m */,
 			);
 			path = NavigationControllers;
 			sourceTree = "<group>";
@@ -295,8 +310,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BE1A4821D18253200182676 /* TeamDetailViewController.m in Sources */,
 				44F38FF918B3F4650012314D /* AppDelegate.m in Sources */,
+				2BE1A47F1D18250400182676 /* TeamViewController.m in Sources */,
 				44F38FF518B3F4650012314D /* main.m in Sources */,
+				2BE1A47C1D1824D100182676 /* TeamMember.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
